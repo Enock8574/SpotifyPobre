@@ -1,3 +1,11 @@
+<?php
+session_start();
+//Verifica si el usuario esta logueado
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 
