@@ -1,0 +1,4 @@
+Notas de Seguridad
+1)Inyecciones SQL: Usamos PDO con consultas preparadas.
+2)Cifrado de contraseñas: Bcrypt asegura las contraseñas.
+3)Hardening: Filtramos entradas con filter_input, validamos tipos de archivo y restringimos acceso a usuarios logueados.
